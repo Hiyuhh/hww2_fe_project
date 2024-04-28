@@ -1,0 +1,80 @@
+
+.carousel-control-next {
+    background: none;
+    border: none;
+}
+
+.carousel-control-prev {
+    background: none;
+    border: none;
+    
+}
+
+.carousel-control-next-icon {
+    filter: invert(1); /* Invert the color of the icon */
+}
+
+.carousel-control-prev-icon {
+    filter: invert(1); /* Invert the color of the icon */
+}
+
+.carousel-indicators li {
+    background-color: #000; /* Change the color of the indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #0000008a; /* Change the color of the active indicator */
+}
+
+.accordion-item {
+    background-color: #ffffff;
+    color: #343a40;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.accordion-button {
+    background-color: #adb5bd00;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #343a40;
+}
+
+.accordion-button:focus {
+    outline: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\2B26";
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-button.collapsed::after {
+    content: "\2B25";
+    position: absolute;
+    right: 1rem;
+}
+
+.modal-body p {
+    word-wrap: break-word !important;
+}
+
+.navbar-toggler:hover {
+    background-color: #68686836;
+    color: #fff;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+
